@@ -1,7 +1,14 @@
 {
+	"autoload": {
+		"psr-4": {
+			"Classes\\": "src/classes",
+			"Model\\": "src/model",
+			"Controller\\": "src/controller"
+		}
+	},
     "require": {
         "slim/slim": "4.*",
         "slim/psr7": "^1.6",
-        "twig/twig": "^3.0"
+		"twig/twig": "^3.0"
     }
 }
